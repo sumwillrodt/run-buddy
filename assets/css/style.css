@@ -37,6 +37,29 @@ header nav ul li a {
     font-size: 22px;
 }
 
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
+
 section {
     padding: 60px;
 }
@@ -202,25 +225,41 @@ body {
     text-align: right;
 }
 
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
+.contact {
+    background: #024e76;
+    text-align: center;
 }
 
-footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
+.contact h2 {
+    color: #fce138;
 }
 
-footer div {
-    float: right;
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+
+.contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+}
+  
+.contact-info p, .contact-info address {
+    margin: 20px 0;
     line-height: 1.5;
-    text-align: right;
+    font-size: 20px;
+    font-style: normal;
 }
-
-footer a {
-    color: #024e76;
+  
+.contact-info a {
+    color: #fce138;
 }
